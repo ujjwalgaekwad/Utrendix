@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: white;
+    background-color: black;
+}
+
+.main {
+    background-color: whitesmoke;
+}
+.hero {
+    height: 98vh;
+    background-color: rgb(167, 167, 167);
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    text-shadow: 10px 10px 5px #8d8d8d;
+    box-shadow: 0px 15px 15px 15px #e1e1e1;
+    
+}
+.nav-bar {
+    height: 10vh;
+    width: 100%;
+    padding: 0vw 5vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-sections {
+    display: flex;
+    gap: 2.8vw;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.nav-sections a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+
+.nav-sections #sec1:hover {
+   color: rgb(127, 104, 136);
+   transition: 0.4s ease-out;
+}
+
+.logo h1 {
+    font-size: 4vw;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.heart-heading {
+    font-family: sans-serif;
+}
+
+#heart {
+    color: red;
+}
+
+.page1 {
+    min-height: 100px;
+    padding: 5vw;
+    width: 100%;
+    position: relative;
+    padding-top: 19vh;
+}
+
+
+.page1 h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 15vw;
+    line-height: 14vw;
+    color: #0c0c0c;
+}
+.page1 .heading1, .heading2 {
+    text-shadow: 10px 10px 5px #8d8d8d;
+}
+
+.page1 .heading2 {
+    color: white;
+}
+/* collections */
+.collection-1 {
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+img {
+    /* border-radius: 4px; */
+    height: 75vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+.image {
+    height: 80vh;
+    width: 32.5%
+}
+
+img:hover {
+   padding: 2px;
+}
+
+/* Material-details */
+.image h4 {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.image h5{
+    text-decoration: line-through;
+}
+
+/* section two */
+.collection-2 {
+    padding: 1vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* poster */
+.ad {
+    padding: 2vw 5vw;
+}
+
+.ad .poster1 {
+    border-radius: 8px;
+}
+
+/* view-all */
+.view-all {
+   text-align: center;
+    margin-top: 10vh;
+}
+.button {
+    padding: 12px 28px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.view-category{
+    margin-top: 3vh;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+
+.category-collection {
+    padding: 2vw 5vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    cursor: pointer;
+}
+
+.category-collection img {
+    border-radius: 0%;
+    padding: 0;
+}
+
+.category {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.arrow{
+    font-size: 0.5rem;
+    font-weight: 50;
+}
+
+/* deal category */
+
+.deal-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Ratings */
+.collection-1 p i {
+    color: red;
+}
+.collection-2 p i {
+    color: red;
+}
+.size {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.category-collection p i {
+    color: red;
+}
+
+/* footer */
+.footer-1 {
+    height: 25vh;
+    width: 100%;
+    background-color: #000000bf;
+    color: white;
+}
+.delivery-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5vh;
+}
+.delivery-details i {
+    font-size: 2rem;
+}
+
+.footer-1 h1 {
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.footer-2 {
+    height: 40vh;
+    background-color: #A01115;
+}
+.footer-3 {
+    height: 70vh;
+}
+.footer-4 {
+    height: 20vh;
+    background-color: #212121;
+}
