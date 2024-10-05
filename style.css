@@ -17,7 +17,7 @@
     background-color: whitesmoke;
 }
 .hero {
-    height: 98vh;
+    height: 88vh;
     background-color: rgb(167, 167, 167);
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
@@ -49,14 +49,25 @@
     font-weight: 100;
 }
 
-
 .nav-sections #sec1:hover {
    color: rgb(127, 104, 136);
    transition: 0.4s ease-out;
 }
+/* try */
 
+.bars {
+    height: 400px;
+    width: 280px;
+    position: absolute;
+    right: 1%;
+    top: -100%;
+    background-color: rgb(220, 215, 215);
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 5px #c8c2c2;
+    display: none;
+}
 .logo h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 800;
     font-style: normal;

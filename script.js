@@ -1,3 +1,10 @@
+let menuBars = document.querySelector(".menu-bar");
+let bars = document.querySelector(".bars");
+menuBars.addEventListener("click", () => {
+    bars.style.top = "1.5%";
+    bars.style.display = "block"; 
+})
+
 const scroll = new LocomotiveScroll({
     el: document.querySelector('.main'),
     smooth: true
